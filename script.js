@@ -2,11 +2,11 @@ $(document).ready(
     function()
     {
         $('td.editable').on('dblclick', function(event) {
-            var dataID = $(event.target).attr('rel');
+            var jsonData = $(event.target).attr('rel');
             var OriginalData = $(this).text();
 
             $(this).addClass("cellEditing");
-            $(this).html("<input type='text' value='" + OriginalData + "' rel='" + dataID + "' />");
+            $(this).html("<input type='text' value='" + OriginalData + "' rel='" + jsonData + "' />");
             $(this).children().first().focus();
 
             $(this).children().first().keypress(function (e) {
