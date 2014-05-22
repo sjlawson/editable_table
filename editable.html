@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>How to become an editable HTML table with jQuery - MrBool Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <table class="editableTable">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td rel='{"id":42,"field":"name"}' class='editable'>Pedro Augusto</td>
+                <td rel='{"id":42,"field":"email"}' class='editable'>pedro.augusto@myemail.com</td>
+                <td rel='{"id":42,"field":"phone"}' class='editable'>(21) 9999-8888</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td rel='{"id":43,"field":"name"}' class='editable'>Paula Silva</td>
+                <td rel='{"id":43,"field":"email"}' class='editable'>paula.silva@mymail.com</td>
+                <td rel='{"id":43,"field":"phone"}' class='editable'>(81) 8787-8686</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td rel='{"id":44,"field":"name"}' class='editable'>Lucas Costa</td>
+                <td rel='{"id":44,"field":"email"}' class='editable'>lucas.costa@myemail.com</td>
+                <td rel='{"id":44,"field":"phone"}' class='editable'>(84) 3232-3232</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.editableTable {
+    border: solid 1px;
+    width: 900px;
+}
+
+.editableTable td {
+    width: 14%;
+}
+
+.editableTable td.editable {
+    border:solid 1px;
+    width: 28%;
+    background-color: #fff;
+}
+
+.editableTable .cellEditing {
+    padding: 0;
+    background-color: #fffecc;
+}
+
+.editableTable .cellEditing input[type=text]{
+    width: 99%;
+    height: 100%;
+    border: 0;
+    background-color: #fffecc;
+}
